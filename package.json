@@ -1,0 +1,29 @@
+{
+  "name": "backend-todoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorecomp/backend-todoapp.git"
+  },
+  "keywords": [
+    "todo-app"
+  ],
+  "author": "Vitor de Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorecomp/backend-todoapp/issues"
+  },
+  "homepage": "https://github.com/vitorecomp/backend-todoapp#readme",
+  "dependencies": {
+    "aws-sdk": "^2.459.0",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.0",
+    "uuid": "^3.3.2"
+  }
+}
